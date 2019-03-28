@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 
 app.get('/about', function(req, res) {
 	res.send({
-		dia: "juebebes",
+		dia: "juebebesbebebes",
 		descripcion: "casi viernesuki"
 	})
 })
