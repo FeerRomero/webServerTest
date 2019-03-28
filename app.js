@@ -10,7 +10,7 @@ const publicDir = path.join(__dirname, 'public')
 app.use(express.static(publicDir))
 
 app.get('/', function(req, res) {
-	res.send('<h1>Hola mundo!</h1>')
+	res.send('<h1>Hola mundo!</h1> <h2>Prueba dos<h2>')
 })
 
 app.get('/about', function(req, res) {
